@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500;600;700;900&display=swap");
 body {
   overflow-x: hidden;
+  position: relative;
 }
 
 section {
@@ -148,7 +149,7 @@ section {
 
 .section1 .title_kv {
   position: absolute;
-  top: 50%;
+  top: 10%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -188,10 +189,10 @@ section {
 @media screen and (min-width: 768px) {
   .section1 .title_kv {
     position: absolute;
-    top: 50%;
-    left: 30%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    top: 5%;
+    left: 5%;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
     z-index: 3;
     width: 30%;
     max-width: 370px;
@@ -203,6 +204,19 @@ section {
     max-width: 400px;
   }
 }
+.section1 .open_videobox{
+  position: absolute;
+  top: inherit;
+  left: inherit;
+  right: 5%;
+  bottom: 5%;
+  z-index: 3;
+  width: 70%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  max-width: 280px;
+}
+
 
 .section1 .kvVideo {
   width: 100%;
@@ -221,21 +235,22 @@ section {
   position: relative;
   min-height: 100%;
   min-width: 100%;
-  background-image: url(./../images/kv/kv_pc.jpg);
+  /* background-image: url(./../images/kv/kv_pc.jpg); */
   background-size: cover;
   background-position: center top;
 }
 
 @media all and (max-width: 769px) {
   .section1 .video-container {
-    background-image: url(./../images/kv/kv_mb.jpg);
+    /* background-image: url(./../images/kv/kv_mb.jpg); */
   }
 }
 
 .section1 .video-container iframe,
 .section1 .video-container object,
 .section1 .video-container embed,
-.section1 .video-container iframe {
+.section1 .video-container iframe , 
+.section1 .video-container video{
   position: absolute;
   top: 0;
   bottom: 0;
@@ -304,16 +319,17 @@ section {
 }
 
 .section2__con a {
-  color: #469dad;
+  color: #41b9a5;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   display: initial;
   text-decoration: none;
-  border-bottom: 1px solid #469dad;
+  border-bottom: 1px solid #41b9a5;
 }
 
 .section2__con a:hover {
-  border-bottom: 1px solid rgba(70, 157, 173, 0.4);
+  color: rgba(70, 157, 173, 1);
+  border-bottom: 1px solid rgba(70, 157, 173, 1);
 }
 
 .section2__inner {
@@ -358,7 +374,7 @@ section {
 }
 
 .section2__inner .quote {
-  color: #4e381d;
+  color: #3bad9a;
   font-size: 30px;
   line-height: 40px;
 }
@@ -372,7 +388,7 @@ section {
 
 .section2__inner h2 {
   font-size: 45px;
-  color: #4e381d;
+  color: #3bad9a;
   font-weight: 700;
   line-height: 70px;
   font-family: 'Noto Serif TC', serif;
@@ -386,7 +402,7 @@ section {
 }
 
 .section3__con--up {
-  background-color: #262a34;
+  background-color: #80c2b7;
 }
 
 .section3__con--up .section3__inner {
@@ -428,7 +444,7 @@ section {
 }
 
 .section3__con--up .section3__inner--left .quote {
-  color: #efd7bb;
+  color: #000000;
   font-size: 30px;
   line-height: 40px;
 }
@@ -441,7 +457,7 @@ section {
 }
 
 .section3__con--up .section3__inner--left h2 {
-  color: #efd7bb;
+  color: #000000;
   font-size: 45px;
   font-weight: 700;
   line-height: 70px;
@@ -461,7 +477,7 @@ section {
 }
 
 .section3__con--up .section3__inner--left p {
-  color: #a6937c;
+  color: #000000;
 }
 
 .section3__con--up .section3__inner--left--left {
@@ -474,7 +490,7 @@ section {
 
 .section3__con--up .section3__inner--right {
   width: 60%;
-  color: #efd7bb;
+  color: #fff;
 }
 
 @media all and (max-width: 769px) {
@@ -487,8 +503,8 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 @media all and (max-width: 769px) {
@@ -504,15 +520,7 @@ section {
 }
 
 @media all and (max-width: 769px) {
-  .section3__con--up .section3__inner--right .year__con--line1 {
-    width: 100%;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .section3__con--up .section3__inner--right .year__con--line1 .year__inner {
+  .section3__con--up .section3__inner--right .year__con--line1{
     width: 33.3333%;
   }
 }
@@ -548,11 +556,22 @@ section {
   .section3__con--up .section3__inner--right .year__con--line4 {
     width: 33.3333%;
   }
+  .section3__con--up .section3__inner--right .year__con--line4.year__con--line5 {
+    width: 50%;
+  }
 }
 
 .section3__con--up .section3__inner--right .year__inner {
   position: relative;
   cursor: pointer;
+  width: 100%;
+  height: 240px;
+  outline: 1px solid #fff;
+}
+@media all and (max-width: 415px) {
+  .section3__con--up .section3__inner--right .year__inner {
+    height: 150px;
+  }
 }
 
 .section3__con--up .section3__inner--right .year__inner:hover::after {
@@ -564,11 +583,53 @@ section {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(38, 42, 52, 0.8);
+  background-color: rgb(48 117 107 / 70%) ;
   top: 0;
   left: 0;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
+}
+.section3__con--up .section3__inner--right .year__inner1{
+  background: url(../images/timeline/2015_main.jpg) center no-repeat;
+  background-size: auto 100%;
+} 
+.section3__con--up .section3__inner--right .year__inner2{
+  background: url(../images/timeline/2016_main.jpg) center no-repeat;
+  background-size: auto 100%;
+} 
+.section3__con--up .section3__inner--right .year__inner3{
+  background: url(../images/timeline/2017_main.jpg) center no-repeat;
+  background-size: auto 100%;
+} 
+.section3__con--up .section3__inner--right .year__inner4{
+  background: url(../images/timeline/2018_main.jpg) center no-repeat;
+  background-size: auto 100%;
+} 
+.section3__con--up .section3__inner--right .year__inner5{
+  background: url(../images/timeline/2019_main.jpg) center no-repeat;
+  background-size: auto 100%;
+} 
+.section3__con--up .section3__inner--right .year__inner6{
+  background: url(../images/timeline/2020_main.jpg) center no-repeat;
+  background-size: auto 100%;
+} 
+.section3__con--up .section3__inner--right .year__inner7{
+  background: url(../images/timeline/2021_main.jpg) center no-repeat;
+  background-size: auto 100%;
+} 
+.section3__con--up .section3__inner--right .year__inner8{
+  background: url(../images/timeline/2022_main.jpg) center no-repeat;
+  background-size: auto 100%;
+} 
+@media all and (max-width: 769px) {
+  .section3__con--up .section3__inner--right .year__inner7{
+    background: url(../images/timeline/2021_main.jpg) center no-repeat;
+    background-size: auto 110%;
+  } 
+  .section3__con--up .section3__inner--right .year__inner8{
+    background: url(../images/timeline/2022_main.jpg) center no-repeat;
+    background-size: auto 110%;
+  } 
 }
 
 .section3__con--up .section3__inner--right .year__inner img {
@@ -583,7 +644,7 @@ section {
   position: absolute;
   z-index: 1;
   font-family: 'Noto Serif TC', serif;
-  text-shadow: 0px 0px 10px #000;
+  /* text-shadow: 0px 0px 10px #000; */
   height: 100%;
   width: 100%;
   display: -webkit-box;
@@ -607,7 +668,7 @@ section {
 }
 
 .section3__con--down {
-  background-color: #2a2f3d;
+  background-color: #80c2b7;
   height: auto;
 }
 
@@ -655,8 +716,8 @@ section {
 .section3__con--down .section3__inner--left .bg {
   position: absolute;
   font-size: 250px;
-  text-shadow: 0 0 1px #eed7bc;
-  color: #2c303b;
+  text-shadow: 0 0 1px #555555;
+  color: #80c2b7;
   left: 45%;
   top: 50%;
   z-index: 0;
@@ -905,6 +966,18 @@ section {
   font-size: 13px !important;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.8)), color-stop(rgba(0, 0, 0, 0.5)), to(transparent));
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5), transparent);
+}
+.section3__con--down .section3__inner--right .item p::after{
+  content: "";
+  position: absolute;
+  bottom: inherit;
+  left: 8px;
+  top: 13px;
+  right: inherit;
+  width: 2px;
+  height: 14px;
+  background: #80c2b7;
+  z-index: 1;
 }
 
 .section3__con--down .section3__inner--right .center {
@@ -1581,7 +1654,7 @@ footer {
   width: 100%;
   display: block;
   text-align: center;
-  background-color: #2a2f3d;
+  background-color: #272727;
   color: #fff;
   padding: 20px 0;
   font-size: 14px;
