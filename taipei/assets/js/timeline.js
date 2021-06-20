@@ -201,47 +201,105 @@ let data = [
 
 
 window.setInterval(function () {
-    // if ($('.ani_chart1').attr('src') == './assets/images/chart/chart1-teacher_1.png') {
-    //     $('.ani_chart1').attr('src', './assets/images/chart/chart1-teacher_2.png')
-    // } else {
-    //     $('.ani_chart1').attr('src', './assets/images/chart/chart1-teacher_1.png')
-    // }
+    if ($('.ani_chart1-1').attr('src') == './assets/images/welfare_chart/con1/conTT1_icon_1.png') {
+        $('.ani_chart1-1').attr('src', './assets/images/welfare_chart/con1/conTT1_icon_2.png')
+    } else if ($('.ani_chart1-1').attr('src') == './assets/images/welfare_chart/con1/conTT1_icon_2.png') {
+        $('.ani_chart1-1').attr('src', './assets/images/welfare_chart/con1/conTT1_icon_3.png')
+    } else if ($('.ani_chart1-1').attr('src') == './assets/images/welfare_chart/con1/conTT1_icon_3.png') {
+        $('.ani_chart1-1').attr('src', './assets/images/welfare_chart/con1/conTT1_icon_1.png')
+    } 
 
-    if ($('.ani_chart2').attr('src') == './assets/images/chart/chart1-student_1.png') {
-        $('.ani_chart2').attr('src', './assets/images/chart/chart1-student_2.png')
-    } else {
-        $('.ani_chart2').attr('src', './assets/images/chart/chart1-student_1.png')
+    if ($('.ani_chart1-2').attr('src') == './assets/images/welfare_chart/con1/con1-baby_1.png') {
+        $('.ani_chart1-2').attr('src', './assets/images/welfare_chart/con1/con1-baby_2.png')
+    } else if ($('.ani_chart1-2').attr('src') == './assets/images/welfare_chart/con1/con1-baby_2.png') {
+        $('.ani_chart1-2').attr('src', './assets/images/welfare_chart/con1/con1-baby_3.png')
+    } else if ($('.ani_chart1-2').attr('src') == './assets/images/welfare_chart/con1/con1-baby_3.png') {
+        $('.ani_chart1-2').attr('src', './assets/images/welfare_chart/con1/con1-baby_1.png')
+    } 
+
+    if ($('.ani_chart1-3').attr('src') == './assets/images/welfare_chart/con1/con1-childcare_1.png') {
+        $('.ani_chart1-3').attr('src', './assets/images/welfare_chart/con1/con1-childcare_2.png')
+    } else if ($('.ani_chart1-3').attr('src') == './assets/images/welfare_chart/con1/con1-childcare_2.png') {
+        $('.ani_chart1-3').attr('src', './assets/images/welfare_chart/con1/con1-childcare_1.png')
     }
 
-    if ($('.ani_chart3').attr('src') == './assets/images/chart/chart2-man_1.png') {
-        $('.ani_chart3').attr('src', './assets/images/chart/chart2-man_2.png')
-    } else if ($('.ani_chart3').attr('src') == './assets/images/chart/chart2-man_2.png') {
-        $('.ani_chart3').attr('src', './assets/images/chart/chart2-man_3.png')
-    } else if ($('.ani_chart3').attr('src') == './assets/images/chart/chart2-man_3.png') {
-        $('.ani_chart3').attr('src', './assets/images/chart/chart2-man_1.png')
+    if ($('.ani_chart1-4').attr('src') == './assets/images/welfare_chart/con1/con1-supplies_1.png') {
+        $('.ani_chart1-4').attr('src', './assets/images/welfare_chart/con1/con1-supplies_2.png')
+    } else if ($('.ani_chart1-4').attr('src') == './assets/images/welfare_chart/con1/con1-supplies_2.png') {
+        $('.ani_chart1-4').attr('src', './assets/images/welfare_chart/con1/con1-supplies_3.png')
+    } else if ($('.ani_chart1-4').attr('src') == './assets/images/welfare_chart/con1/con1-supplies_3.png') {
+        $('.ani_chart1-4').attr('src', './assets/images/welfare_chart/con1/con1-supplies_1.png')
     }
 
-    if ($('.ani_chart4').attr('src') == './assets/images/chart/chart2-family_1.png') {
-        $('.ani_chart4').attr('src', './assets/images/chart/chart2-family_2.png')
-    } else if ($('.ani_chart4').attr('src') == './assets/images/chart/chart2-family_2.png') {
-        $('.ani_chart4').attr('src', './assets/images/chart/chart2-family_3.png')
-    } else if ($('.ani_chart4').attr('src') == './assets/images/chart/chart2-family_3.png') {
-        $('.ani_chart4').attr('src', './assets/images/chart/chart2-family_1.png')
+    if ($('.ani_chart1-5').attr('src') == './assets/images/welfare_chart/con1/con1-friendly_1.png') {
+        $('.ani_chart1-5').attr('src', './assets/images/welfare_chart/con1/con1-friendly_2.png')
+    } else if ($('.ani_chart1-5').attr('src') == './assets/images/welfare_chart/con1/con1-friendly_2.png') {
+        $('.ani_chart1-5').attr('src', './assets/images/welfare_chart/con1/con1-friendly_3.png')
+    } else if ($('.ani_chart1-5').attr('src') == './assets/images/welfare_chart/con1/con1-friendly_3.png') {
+        $('.ani_chart1-5').attr('src', './assets/images/welfare_chart/con1/con1-friendly_4.png')
+    } else if ($('.ani_chart1-5').attr('src') == './assets/images/welfare_chart/con1/con1-friendly_4.png') {
+        $('.ani_chart1-5').attr('src', './assets/images/welfare_chart/con1/con1-friendly_1.png')
     }
 
-    if ($('.ani_chart5').attr('src') == './assets/images/chart/chart3-bus_1.png') {
-        $('.ani_chart5').attr('src', './assets/images/chart/chart3-bus_2.png')
-    } else if ($('.ani_chart5').attr('src') == './assets/images/chart/chart3-bus_2.png') {
-        $('.ani_chart5').attr('src', './assets/images/chart/chart3-bus_3.png')
-    } else if ($('.ani_chart5').attr('src') == './assets/images/chart/chart3-bus_3.png') {
-        $('.ani_chart5').attr('src', './assets/images/chart/chart3-bus_1.png')
+    if ($('.ani_chart1-6').attr('src') == './assets/images/welfare_chart/con1/con1-parent_1.png') {
+        $('.ani_chart1-6').attr('src', './assets/images/welfare_chart/con1/con1-parent_2.png')
+    } else if ($('.ani_chart1-6').attr('src') == './assets/images/welfare_chart/con1/con1-parent_2.png') {
+        $('.ani_chart1-6').attr('src', './assets/images/welfare_chart/con1/con1-parent_3.png')
+    } else if ($('.ani_chart1-6').attr('src') == './assets/images/welfare_chart/con1/con1-parent_3.png') {
+        $('.ani_chart1-6').attr('src', './assets/images/welfare_chart/con1/con1-parent_4.png')
+    } else if ($('.ani_chart1-6').attr('src') == './assets/images/welfare_chart/con1/con1-parent_4.png') {
+        $('.ani_chart1-6').attr('src', './assets/images/welfare_chart/con1/con1-parent_1.png')
     }
 
-    if ($('.ani_chart6').attr('src') == './assets/images/chart/chart3-family_1.png') {
-        $('.ani_chart6').attr('src', './assets/images/chart/chart3-family_2.png')
-    } else if ($('.ani_chart6').attr('src') == './assets/images/chart/chart3-family_2.png') {
-        $('.ani_chart6').attr('src', './assets/images/chart/chart3-family_1.png')
+    if ($('.ani_chart2-1').attr('src') == './assets/images/welfare_chart/con2/con2_1.png') {
+        $('.ani_chart2-1').attr('src', './assets/images/welfare_chart/con2/con2_2.png')
+    } else if ($('.ani_chart2-1').attr('src') == './assets/images/welfare_chart/con2/con2_2.png') {
+        $('.ani_chart2-1').attr('src', './assets/images/welfare_chart/con2/con2_3.png')
+    } else if ($('.ani_chart2-1').attr('src') == './assets/images/welfare_chart/con2/con2_3.png') {
+        $('.ani_chart2-1').attr('src', './assets/images/welfare_chart/con2/con2_1.png')
     }
+
+    if ($('.ani_chart3-1').attr('src') == './assets/images/welfare_chart/con3/conTT3_icon_1.png') {
+        $('.ani_chart3-1').attr('src', './assets/images/welfare_chart/con3/conTT3_icon_2.png')
+    } else if ($('.ani_chart3-1').attr('src') == './assets/images/welfare_chart/con3/conTT3_icon_2.png') {
+        $('.ani_chart3-1').attr('src', './assets/images/welfare_chart/con3/conTT3_icon_3.png')
+    } else if ($('.ani_chart3-1').attr('src') == './assets/images/welfare_chart/con3/conTT3_icon_3.png') {
+        $('.ani_chart3-1').attr('src', './assets/images/welfare_chart/con3/conTT3_icon_1.png')
+    }
+
+
+    if ($('.ani_chart4-1').attr('src') == './assets/images/welfare_chart/con4/conTT4_icon_1.png') {
+        $('.ani_chart4-1').attr('src', './assets/images/welfare_chart/con4/conTT4_icon_2.png')
+    } else if ($('.ani_chart4-1').attr('src') == './assets/images/welfare_chart/con4/conTT4_icon_2.png') {
+        $('.ani_chart4-1').attr('src', './assets/images/welfare_chart/con4/conTT4_icon_3.png')
+    } else if ($('.ani_chart4-1').attr('src') == './assets/images/welfare_chart/con4/conTT4_icon_3.png') {
+        $('.ani_chart4-1').attr('src', './assets/images/welfare_chart/con4/conTT4_icon_1.png')
+    }
+
+    if ($('.ani_chart5-1').attr('src') == './assets/images/welfare_chart/con5/con5_1.png') {
+        $('.ani_chart5-1').attr('src', './assets/images/welfare_chart/con5/con5_2.png')
+    } else if ($('.ani_chart5-1').attr('src') == './assets/images/welfare_chart/con5/con5_2.png') {
+        $('.ani_chart5-1').attr('src', './assets/images/welfare_chart/con5/con5_3.png')
+    } else if ($('.ani_chart5-1').attr('src') == './assets/images/welfare_chart/con5/con5_3.png') {
+        $('.ani_chart5-1').attr('src', './assets/images/welfare_chart/con5/con5_1.png')
+    }
+
+    if ($('.ani_chart6-1').attr('src') == './assets/images/welfare_chart/con6/conTT6_icon_1.png') {
+        $('.ani_chart6-1').attr('src', './assets/images/welfare_chart/con6/conTT6_icon_2.png')
+    } else if ($('.ani_chart6-1').attr('src') == './assets/images/welfare_chart/con6/conTT6_icon_2.png') {
+        $('.ani_chart6-1').attr('src', './assets/images/welfare_chart/con6/conTT6_icon_3.png')
+    } else if ($('.ani_chart6-1').attr('src') == './assets/images/welfare_chart/con6/conTT6_icon_3.png') {
+        $('.ani_chart6-1').attr('src', './assets/images/welfare_chart/con6/conTT6_icon_1.png')
+    }
+
+    if ($('.ani_chart6-2').attr('src') == './assets/images/welfare_chart/con6/con6_1.png') {
+        $('.ani_chart6-2').attr('src', './assets/images/welfare_chart/con6/con6_2.png')
+    } else if ($('.ani_chart6-2').attr('src') == './assets/images/welfare_chart/con6/con6_2.png') {
+        $('.ani_chart6-2').attr('src', './assets/images/welfare_chart/con6/con6_3.png')
+    } else if ($('.ani_chart6-2').attr('src') == './assets/images/welfare_chart/con6/con6_3.png') {
+        $('.ani_chart6-2').attr('src', './assets/images/welfare_chart/con6/con6_1.png')
+    }
+
 
 }, 350)
 
@@ -345,7 +403,10 @@ for (let i = 0; i < year__inner.length; i++) {
 
 var check1 = true,
     check2 = true,
-    check3 = true;
+    check3 = true,
+    check4 = true,
+    check5 = true,
+    check6 = true;
 
 $(window).on('scroll', function () {
     var wScroll = $(this).scrollTop();
@@ -355,44 +416,76 @@ $(window).on('scroll', function () {
         $(".goTop").fadeOut()
     }
 
-    var chart1 = $('.section4__inner--chart1').offset().top,
-        chart2 = $('.section4__inner--chart2').offset().top,
-        chart3 = $('.section4__inner--chart3').offset().top;
+    var chart1 = $('.section4__con--chart1').offset().top,
+        chart2 = $('.section4__con--chart2').offset().top,
+        chart3 = $('.section4__con--chart3').offset().top,
+        chart4 = $('.section4__con--chart4').offset().top,
+        chart5 = $('.section4__con--chart5').offset().top,
+        chart6 = $('.section4__con--chart6').offset().top;
 
     windowScroll = $(this).scrollTop();
     if (chart1 - document.body.clientHeight / 2 < windowScroll) {
 
         if (check1) {
-            $("#chart1").animateNumbers(1093680, true, 3000);
-            $("#chart2").animateNumbers(10925, true, 3000);
-            $("#chart3").animateNumbers(400, true, 2000);
-            $("#chart4").animateNumbers(36046, true, 3000);
-            // $(".chart__inner--line1").addClass('chart__inner--line1Ani');
-            $(".chart__inner--line2").addClass('chart__inner--line2Ani');
-            $(".chart__inner--line3").addClass('chart__inner--line3Ani');
-            $(".chart__inner--line4").addClass('chart__inner--line4Ani');
+            $("#chart1").animateNumbers(26, true, 1500);
+            $("#chart2").animateNumbers(60, true, 3000);
+            $("#chart3").animateNumbers(1, true, 1000);
+            $("#chart4").animateNumbers(13, true, 2000);
+            $("#chart5").animateNumbers(12, true, 2000);
             check1 = false;
         }
     }
 
     if (chart2 - document.body.clientHeight / 2 < windowScroll) {
         if (check2) {
-            $("#chart5").animateNumbers(52307, true, 3000);
-            $("#chart6").animateNumbers(715433, true, 3000);
+            $("#chart6").animateNumbers(30, true, 3000);
             check2 = false;
         }
     }
 
     if (chart3 - document.body.clientHeight / 2 < windowScroll) {
         if (check3) {
-            $("#chart7").animateNumbers(32, true, 2000);
-            $("#chart8").animateNumbers(200000, true, 3000);
-            $("#chart9").animateNumbers(154156, true, 3000);
-            $("#chart10").animateNumbers(43600, true, 3000);
-            $("#chart11").animateNumbers(1350, true, 3000);
-            $("#chart12").animateNumbers(13611560, true, 3000);
-            $("#chart13").animateNumbers(13118800, true, 3000);
+            $("#chart7").animateNumbers(35, true, 3000);
+            $("#chart8").animateNumbers(20, true, 3000);
             check3 = false;
+        }
+    }
+
+    if (chart4 - document.body.clientHeight / 2 < windowScroll) {
+        if (check4) {
+            $("#chart9").animateNumbers(40, true, 2000);
+            $("#chart10").animateNumbers(53, true, 2000);
+            $("#chart11").animateNumbers(53, true, 2000);
+            $("#chart12").animateNumbers(36, true, 2000);
+            $("#chart13").animateNumbers(47, true, 2000);
+            $("#chart14").animateNumbers(44, true, 2000);
+            $("#chart15").animateNumbers(49, true, 2000);
+            check4 = false;
+        }
+    }
+
+    if (chart5 - document.body.clientHeight / 2 < windowScroll) {
+        if (check5) {
+            $(".chartLine__line1").addClass('chartLine__line1--Ani');
+            $(".chartLine__line2").addClass('chartLine__line2--Ani');
+            $(".chartLine__line3").addClass('chartLine__line3--Ani');
+            $(".chartLine__line4").addClass('chartLine__line4--Ani');
+            $(".chartLine__line5").addClass('chartLine__line5--Ani');
+            $(".chartLine__line6").addClass('chartLine__line6--Ani');
+            $(".chartLine__line7").addClass('chartLine__line7--Ani');
+            $(".chartLine__line8").addClass('chartLine__line8--Ani');
+            chart5 = false;
+        }
+    }
+
+    if (chart6 - document.body.clientHeight / 2 < windowScroll) {
+        if (check6) {
+            $("#chart16").animateNumbers(374, true, 2000);
+            $("#chart17").animateNumbers(492, true, 2000);
+            $("#chart18").animateNumbers(564, true, 2000);
+            $("#chart19").animateNumbers(52, true, 2000);
+            $("#chart20").animateNumbers(44, true, 2000);
+            chart6 = false;
         }
     }
 });

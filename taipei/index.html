@@ -60,11 +60,14 @@
     </script>
     <!-- gtmEnd -->
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/common.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
-        rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style2.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Spartan:wght@200;300;400&display=swap" rel="stylesheet">
     <!-- js -->
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 
@@ -264,145 +267,509 @@
             </div>
         </div>
     </section>
-
+    
     <!-- 第四屏 -->
-    <section class="section4" style="display: none;">
-        <div class="section4__con">
-            <h2>造一個教育酷夢</h2>
-            <div class="section4__inner section4__inner1">
-                <h3>培育優秀人才</h3>
-                <p>（統計1997-2020年）</p>
-                <div class="section4__inner--chart section4__inner--chart1">
-                    <div class="chart__con">
-                        <!-- <div class="chart__inner">
-                            <div class="chart__inner--line chart__inner--line1">
-
+    <section class="section4">
+        <div class="container">
+            <article class="section4__con section4__con--chart1">
+                <div class="section4__title">
+                    <div class="section4__title--top">
+                        <h3 data-aos="fade-up" data-aos-delay="500"><img
+                                src="assets/images/welfare_chart/con1/conTT1.png"
+                                alt="托善教育"
+                            ></h3>
+                        <div class="pic" data-aos="fade-up" data-aos-delay="250">
+                            <img
+                                src="./assets/images/welfare_chart/con1/conTT1_icon_1.png"
+                                alt=""
+                                class="ani_chart ani_chart1-1"
+                                data-name="conTT1_icon_"
+                                data-step='4'
+                            >
+                        </div>
+                    </div>
+                    <div class="section4__title--down" data-aos="fade-right">
+                        <img
+                            src="assets/images/welfare_chart/con1/conTT1_sub.png"
+                            alt="我們的孩子 我們一起養"
+                        >
+                    </div>
+                </div>
+                <ul class="section4__inner section4__inner1">
+                    <li class="chart__inner">
+                        <div data-aos="fade-up" data-aos-delay="150">
+                            <div class="chart__inner--pic">
+                                <img
+                                    src="./assets/images/welfare_chart/con1/con1-baby_1.png"
+                                    alt=""
+                                    class="ani_chart ani_chart1-2"
+                                    data-name="con1-baby_"
+                                    data-step='4'
+                                >
                             </div>
                             <div class="chart__inner--num">
-                                <p><span id="chart1" class="chartNum_1">0</span><span>
-                                        人投入公文式教育的學習。</span>
-                                </p>
+                                <p><span
+                                        id="chart1"
+                                        class="chartNum_1"
+                                    >0</span><span>處</span></p>
+                                <p>公辦民營<br>托嬰中心</p>
                             </div>
-                        </div> -->
-                        <div class="chart__inner">
-                            <div class="chart__inner--line chart__inner--line2">
-
+                        </div>
+                    </li>
+                    <li class="chart__inner">
+                        <div data-aos="fade-up" data-aos-delay="300">
+                            <div class="chart__inner--pic">
+                                <img
+                                    src="./assets/images/welfare_chart/con1/con1-childcare_1.png"
+                                    alt=""
+                                    class="ani_chart ani_chart1-3"
+                                    data-name="con1-childcare_"
+                                    data-step='3'
+                                >
                             </div>
                             <div class="chart__inner--num">
-                                <p><span id="chart2" class="chartNum_1">0</span><span>
-                                        人完成公文式數學、英文、國語之最終（最高）教材。</span> </p>
-                                </span>
-                            </div>
-                            <div class="chart__inner">
-                                <div class="chart__inner--line chart__inner--line3">
-
-                                </div>
-                                <div class="chart__inner--num chart__inner--num3">
-                                    <p><span id="chart3" class="chartNum_1">0</span><span>
-                                            位幼兒達成幼兒方程式。</span>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="chart__inner">
-                                <div class="chart__inner--line chart__inner--line4">
-
-                                </div>
-                                <div class="chart__inner--num">
-                                    <p><span id="chart4" class="chartNum_1">0</span><span>
-                                            人超越四學年以上獲獎。</span>
-                                    </p>
-                                </div>
+                                <p><span
+                                        id="chart2"
+                                        class="chartNum_2"
+                                    >0</span><span>處</span></p>
+                                <p>社區公共<br>托育家園</p>
                             </div>
                         </div>
-                        <!-- <div class="pic_left">
-                            <img src="./assets/images/chart/chart1-teacher_1.png" alt="" class="ani_chart ani_chart1"
-                                data-name="chart1-teacher_" data-step='2' data-check='true'>
-                        </div> -->
-                        <div class="pic_right">
-                            <img src="./assets/images/chart/chart1-student_1.png" alt="" class="ani_chart ani_chart2"
-                                data-name="chart1-student_" data-step='2'>
+                    </li>
+                    <li class="chart__inner">
+                        <div data-aos="fade-up" data-aos-delay="300">
+                            <div class="chart__inner--pic">
+                                <img
+                                    src="./assets/images/welfare_chart/con1/con1-supplies_1.png"
+                                    alt=""
+                                    class="ani_chart ani_chart1-4"
+                                    data-name="con1-supplies_"
+                                    data-step='4'
+                                >
+                            </div>
+                            <div class="chart__inner--num">
+                                <p><span
+                                        id="chart3"
+                                        class="chartNum_3"
+                                    >0</span><span>間</span></p>
+                                <p>嬰幼兒物資<br>交流中心</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="chart__inner">
+                        <div data-aos="fade-up" data-aos-delay="150">
+                            <div class="chart__inner--pic">
+                                <img
+                                    src="./assets/images/welfare_chart/con1/con1-friendly_1.png"
+                                    alt=""
+                                    class="ani_chart ani_chart1-5"
+                                    data-name="con1-friendly_"
+                                    data-step='5'
+                                >
+                            </div>
+                            <div class="chart__inner--num">
+                                <p><span
+                                        id="chart4"
+                                        class="chartNum_4"
+                                    >0</span><span>家</span></p>
+                                <p>育兒友善園</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="chart__inner">
+                        <div data-aos="fade-up" data-aos-delay="300">
+                            <div class="chart__inner--pic">
+                                <img
+                                    src="./assets/images/welfare_chart/con1/con1-parent_1.png"
+                                    alt=""
+                                    class="ani_chart ani_chart1-6"
+                                    data-name="con1-parent_"
+                                    data-step='5'
+                                >
+                            </div>
+                            <div class="chart__inner--num">
+                                <p><span
+                                        id="chart5"
+                                        class="chartNum_5"
+                                    >0</span><span>間</span></p>
+                                <p>親子館</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+            <article class="section4__con section4__con--chart2">
+                <div class="section4__title">
+                    <div class="section4__title--top">
+                        <h3 data-aos="fade-up" data-aos-delay="500"><img
+                                src="assets/images/welfare_chart/con2/conTT2.png"
+                                alt="學前教育"
+                            ></h3>
+                        <div class="pic" data-aos="fade-up" data-aos-delay="250">
+                            <img src="./assets/images/welfare_chart/con2/conTT2_icon_1.png">
+                        </div>
+                    </div>
+                    <div class="section4__title--down" data-aos="fade-left">
+                        <img
+                            src="assets/images/welfare_chart/con2/conTT2_sub.png"
+                            alt="台北市104-110學年度公共化教保服務核定名額"
+                        >
+                    </div>
+                </div>
+                <div class="section4__inner section4__inner2">
+                    <div class="pic_box">
+                        <div class="dialogBox">
+                            公共化比例提升
+                            <span
+                            id="chart6"
+                            class="num">0</span>
+                            %
+                        </div>
+                        <img
+                                src="./assets/images/welfare_chart/con2/con2_1.png"
+                                alt=""
+                                class="ani_chart ani_chart2-1"
+                                data-name="con2_"
+                                data-step='1'
+                            >
+                    </div>
+                    <div class="chart_box">
+                        <img src="./assets/images/welfare_chart/con2/con2-chrit_1.png" alt="" class="mj_pic" data-aos="fade-In" >
+                        <img src="./assets/images/welfare_chart/con2/con2-chrit_2.png" alt="" class="mj_bg mg_bg2" data-aos="fade-up" data-aos-delay="500">
+                        <img src="./assets/images/welfare_chart/con2/con2-chrit_3.png" alt="" class="mj_bg mg_bg3" data-aos="fade-In" data-aos-delay="250">
+
+                        <div class="chart_box_sub">    
+                            <img src="./assets/images/welfare_chart/con2/con2-chrit-dot_1.png" alt="" class="dot_1" data-aos="fade-up" data-aos-delay="500">
+                            <img src="./assets/images/welfare_chart/con2/con2-chrit-dot_2.png" alt="" class="dot_2" data-aos="fade-up" data-aos-delay="600">
+                            <img src="./assets/images/welfare_chart/con2/con2-chrit-dot_3.png" alt="" class="dot_3" data-aos="fade-up" data-aos-delay="700">
+                            <img src="./assets/images/welfare_chart/con2/con2-chrit-dot_4.png" alt="" class="dot_4" data-aos="fade-up" data-aos-delay="800">
+                            <img src="./assets/images/welfare_chart/con2/con2-chrit-dot_5.png" alt="" class="dot_5" data-aos="fade-up" data-aos-delay="900">
+                            <img src="./assets/images/welfare_chart/con2/con2-chrit-dot_6.png" alt="" class="dot_6" data-aos="fade-up" data-aos-delay="1000">
+                            <img src="./assets/images/welfare_chart/con2/con2-chrit-dot_7.png" alt="" class="dot_7" data-aos="fade-up" data-aos-delay="1100">
+                            <img src="./assets/images/welfare_chart/con2/con2-chrit-dot_8.png" alt="" class="dot_8" data-aos="zoom-out" data-aos-delay="1500">
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="section4__inner section4__inner2">
-                <h3>親職家庭教育講座</h3>
-                <p>（統計2007-2020年）</p>
-                <div class="section4__inner--chart section4__inner--chart2">
-                    <div class="chart__con">
-                        <div class="chart__inner chart__inner1">
-                            <div class="chart__inner--left">
-                                <div class="pic_left">
-                                    <img src="./assets/images/chart/chart2-man_1.png" alt=""
-                                        class="ani_chart ani_chart3" data-name="chart2-man_" data-step='3'>
+            </article>
+            <article class="section4__con section4__con--chart3">
+                <div class="section4__title">
+                    <div class="section4__title--top">
+                        <h3 data-aos="fade-up" data-aos-delay="500"><img
+                                src="assets/images/welfare_chart/con3/conTT3.png"
+                                alt="女力崛起"
+                            ></h3>
+                        <div class="pic" data-aos="fade-up" data-aos-delay="250">
+                            <img
+                                src="./assets/images/welfare_chart/con3/conTT3_icon_1.png"
+                                alt=""
+                                class="ani_chart ani_chart3-1"
+                                data-name="conTT3_icon_"
+                                data-step='1'
+                            >
+                        </div>
+                    </div>
+                    <div class="section4__title--down" data-aos="fade-right">
+                        <img
+                            src="assets/images/welfare_chart/con3/conTT3_sub.png"
+                            alt="北市推動性別同酬、職場友善"
+                        >
+                    </div>
+                </div>
+                <div class="section4__inner section4__inner3">
+                    <div class="left_box">
+                        <img src="./assets/images/welfare_chart/con3/con3-women.png" alt="" class="women" data-aos="fade-up" data-aos-delay="250">
+                        <img src="./assets/images/welfare_chart/con3/con3-earth.png" alt="" class="earth" data-aos="zoom-in">
+                    </div>
+                    <div class="right_box">
+                        <ul class="chirtLis">
+                            <li>
+                                <div class="chirtLis__num">
+                                    <span id="chart7" class="num">0</span>%
                                 </div>
-                            </div>
-                            <div class="chart__inner--right">
-                                <img src="./assets/images/bg_icon@2x.png" alt="" class="chart_bg">
-
-                                <p><span id="chart5" class="chartNum_2">0</span> 場全國講座與懇談會。</p>
+                                <div class="chirtLis__chirt">
+                                    <div class="pic">
+                                        <img src="./assets/images/welfare_chart/con3/con3-chirt_bg.png" alt="" class="mj_bg">
+                                        <img src="./assets/images/welfare_chart/con3/con3-chirt_1.png" alt="" class="sub" data-aos="fade-in" data-aos-delay="500">
+                                        <img src="./assets/images/welfare_chart/con3/con3-chirt_2.png" alt="" class="sub" data-aos="fade-in" data-aos-delay="750">
+                                        <img src="./assets/images/welfare_chart/con3/con3-chirt_3.png" alt="" class="sub" data-aos="fade-in" data-aos-delay="1000">
+                                        <img src="./assets/images/welfare_chart/con3/con3-chirt_4.png" alt="" class="sub" data-aos="fade-in" data-aos-delay="1250">
+                                    </div>
+                                    <p>女性過去5年在台北登記為新公司的負責人</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="chirtLis__num">
+                                    <span id="chart8" class="num">0</span>%
+                                </div>
+                                <div class="chirtLis__chirt">
+                                    <div class="pic">
+                                        <img src="./assets/images/welfare_chart/con3/con3-chirt_bg.png" alt="" class="mj_bg">
+                                        <img src="./assets/images/welfare_chart/con3/con3-chirt_1.png" alt="" class="sub" data-aos="fade-in" data-aos-delay="500">
+                                        <img src="./assets/images/welfare_chart/con3/con3-chirt_2.png" alt="" class="sub" data-aos="fade-in" data-aos-delay="750">
+                                    </div>
+                                    <p>女性負責人在過去20年曾得到新創產業補助獎勵</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <img src="./assets/images/welfare_chart/con3/con3-txt_1.png" alt="" class="con3-txt txt--1" data-aos="fade-up" data-aos-delay="500">
+                        <img src="./assets/images/welfare_chart/con3/con3-txt_2.png" alt="" class="con3-txt txt--2" data-aos="fade-up" data-aos-delay="750">
+                        <img src="./assets/images/welfare_chart/con3/con3-txt_3.png" alt="" class="con3-txt txt--3" data-aos="fade-up" data-aos-delay="1000">
+                    </div>
+                </div>
+            </article>
+            <article class="section4__con section4__con--chart4">
+                <div class="section4__title">
+                    <div class="section4__title--top">
+                        <h3 data-aos="fade-up" data-aos-delay="500"><img
+                                src="assets/images/welfare_chart/con4/conTT4.png"
+                                alt="社會住宅"
+                            ></h3>
+                        <div class="pic" data-aos="fade-up" data-aos-delay="250">
+                            <img
+                                src="./assets/images/welfare_chart/con4/conTT4_icon_1.png"
+                                alt=""
+                                class="ani_chart ani_chart4-1"
+                                data-name="conTT4_icon_"
+                                data-step='1'
+                            >
+                        </div>
+                    </div>
+                    <div class="section4__title--down" data-aos="fade-left">
+                        <img
+                            src="./assets/images/welfare_chart/con4/conTT4_sub.png"
+                            alt="讓年青人在台北市至少租得起"
+                        >
+                    </div>
+                </div>
+                <div class="section4__inner section4__inner4">
+                    <div class="pic_box">
+                        <img src="./assets/images/welfare_chart/con4/con4-map.png" alt="" class="map">
+                        <img src="./assets/images/welfare_chart/con4/con4-mapDots.png" alt="" class="mapDots"  data-aos="fade-in">
+                        <ul class="dots_sp">
+                            <li class="dot dot_1">1</li>
+                            <li class="dot dot_2">2</li>
+                            <li class="dot dot_3">3</li>
+                            <li class="dot dot_4">4</li>
+                            <li class="dot dot_5">5</li>
+                            <li class="dot dot_6">6</li>
+                            <li class="dot dot_7">7</li>
+                        </ul>
+                     </div>
+                     <div class="info_box">
+                        <ul class="chirtLis">
+                            <li class="chirtLis__item __1" data-aos="fade-left" data-aos-delay="250">
+                                <div class="top">
+                                    <span class="dot dot_1">1</span>
+                                    <img src="./assets/images/welfare_chart/con4/con4-infoArrow.png" alt="" class="icon">
+                                    <div class="chirtLis__num">
+                                        <span id="chart9" class="num">0</span>%
+                                    </div>
+                                </div>
+                                <img src="./assets/images/welfare_chart/con4/con4-info_1.png" alt="" class="bottom">
+                            </li>
+                            <li class="chirtLis__item __2" data-aos="fade-left" data-aos-delay="500">
+                                <div class="top">
+                                    <span class="dot dot_2">2</span>
+                                    <img src="./assets/images/welfare_chart/con4/con4-infoArrow.png" alt="" class="icon">
+                                    <div class="chirtLis__num">
+                                        <span id="chart10" class="num">0</span>%
+                                    </div>
+                                </div>
+                                <img src="./assets/images/welfare_chart/con4/con4-info_2.png" alt="" class="bottom">
+                            </li>
+                            <li class="chirtLis__item __3" data-aos="fade-left" data-aos-delay="750">
+                                <div class="top">
+                                    <span class="dot dot_3">3</span>
+                                    <img src="./assets/images/welfare_chart/con4/con4-infoArrow.png" alt="" class="icon">
+                                    <div class="chirtLis__num">
+                                        <span id="chart11" class="num">0</span>%
+                                    </div>
+                                </div>
+                                <img src="./assets/images/welfare_chart/con4/con4-info_3.png" alt="" class="bottom">
+                            </li>
+                            <li class="chirtLis__item __4" data-aos="fade-left" data-aos-delay="1000">
+                                <div class="top">
+                                    <span class="dot dot_4">4</span>
+                                    <img src="./assets/images/welfare_chart/con4/con4-infoArrow.png" alt="" class="icon">
+                                    <div class="chirtLis__num">
+                                        <span id="chart12" class="num">0</span>%
+                                    </div>
+                                </div>
+                                <img src="./assets/images/welfare_chart/con4/con4-info_4.png" alt="" class="bottom">
+                            </li>
+                        </ul>
+                        <ul class="chirtLis">
+                            <li class="chirtLis__item __5" data-aos="fade-left" data-aos-delay="250">
+                                <div class="top">
+                                    <span class="dot dot_5">5</span>
+                                    <img src="./assets/images/welfare_chart/con4/con4-infoArrow.png" alt="" class="icon">
+                                    <div class="chirtLis__num">
+                                        <span id="chart13" class="num">0</span>%
+                                    </div>
+                                </div>
+                                <img src="./assets/images/welfare_chart/con4/con4-info_5.png" alt="" class="bottom">
+                            </li>
+                            <li class="chirtLis__item __6" data-aos="fade-left" data-aos-delay="500">
+                                <div class="top">
+                                    <span class="dot dot_6">6</span>
+                                    <img src="./assets/images/welfare_chart/con4/con4-infoArrow.png" alt="" class="icon">
+                                    <div class="chirtLis__num">
+                                        <span id="chart14" class="num">0</span>%
+                                    </div>
+                                </div>
+                                <img src="./assets/images/welfare_chart/con4/con4-info_6.png" alt="" class="bottom">
+                            </li>
+                            <li class="chirtLis__item __7" data-aos="fade-left" data-aos-delay="750">
+                                <div class="top">
+                                    <span class="dot dot_7">7</span>
+                                    <img src="./assets/images/welfare_chart/con4/con4-infoArrow.png" alt="" class="icon">
+                                    <div class="chirtLis__num">
+                                        <span id="chart15" class="num">0</span>%
+                                    </div>
+                                </div>
+                                <img src="./assets/images/welfare_chart/con4/con4-info_7.png" alt="" class="bottom">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <article class="section4__con section4__con--chart5">
+                <div class="section4__title">
+                    <div class="section4__title--top">
+                        <h3 data-aos="fade-up" data-aos-delay="500"><img
+                                src="assets/images/welfare_chart/con5/conTT5.png"
+                                alt="北市邁入超高齡社會"
+                            ></h3>
+                    </div>
+                    <div class="section4__title--down" data-aos="fade-right">
+                        <img
+                            src="./assets/images/welfare_chart/con5/conTT5_sub.png"
+                            alt="台北與我好好慢老"
+                        >
+                    </div>
+                </div>
+                <div class="section4__inner section4__inner5">
+                    <div class="left_box">
+                        <img src="./assets/images/welfare_chart/con5/con5-chirt_bg.png" alt="" class="chirt_bg">
+                        <img src="./assets/images/welfare_chart/con5/con5-chirt_num.png" alt="" class="chirt_num" data-aos="fade-right" data-aos-delay="500">
+                        <ul class="chartLis">
+                            <li class="chartLine chartLine__line1">
+                                <span class="chart_num"><span data-aos="fade-right" data-aos-delay="1000">10.4億</span></span>
+                            </li>
+                            <li class="chartLine chartLine__line2">
+                                <span class="chart_num"><span data-aos="fade-right" data-aos-delay="1000">9.9億</span></span>
+                            </li>
+                            <li class="chartLine chartLine__line3">
+                                <span class="chart_num"><span data-aos="fade-right" data-aos-delay="1000">9.4億</span></span>
+                            </li>
+                            <li class="chartLine chartLine__line4">
+                                <span class="chart_num"><span data-aos="fade-right" data-aos-delay="1000">8.8億</span></span>
+                            </li>
+                            <li class="chartLine chartLine__line5">
+                                <span class="chart_num"><span data-aos="fade-right" data-aos-delay="1000">8.3億</span></span>
+                            </li>
+                            <li class="chartLine chartLine__line6">
+                                <span class="chart_num"><span data-aos="fade-right" data-aos-delay="1000">7.8億</span></span>
+                            </li>
+                            <li class="chartLine chartLine__line7">
+                                <span class="chart_num"><span data-aos="fade-right" data-aos-delay="1000">7.3億</span></span>
+                            </li>
+                            <li class="chartLine chartLine__line8">
+                                <span class="chart_num"><span data-aos="fade-right" data-aos-delay="1000">6.9億</span></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right_box">
+                        <img src="./assets/images/welfare_chart/con5/con5_1.png" alt="" class="ani_chart ani_chart5-1" data-name="con5_" data-step="1">
+                    </div>
+                </div>
+            </article>
+            <article class="section4__con section4__con--chart6">
+                <div class="section4__con__top">
+                    <div class="section4__title">
+                        <div class="section4__title--top">
+                            <h3 data-aos="fade-up" data-aos-delay="500"><img
+                                    src="assets/images/welfare_chart/con6/conTT6.png"
+                                    alt="北市邁入超高齡社會"
+                                ></h3>
+                            <div class="pic" data-aos="fade-up" data-aos-delay="250">
+                                <img src="./assets/images/welfare_chart/con6/conTT6_icon_1.png" alt="" class="ani_chart ani_chart6-1" data-name="conTT6_icon_" data-step="1">
                             </div>
                         </div>
-                        <div class="chart__inner chart__inner2">
-                            <div class="chart__inner--left">
-                                <p><span id="chart6" class="chartNum_2">0</span> 家庭參與。</p>
+                        <div class="section4__title--down" data-aos="fade-left">
+                            <img
+                                src="./assets/images/welfare_chart/con6/conTT6_sub.png"
+                                alt="台北與我好好慢老"
+                            >
+                        </div>
+                    </div>
+                    <div class="section4__pic">
+                        <img src="./assets/images/welfare_chart/con6/con6_1.png" alt="" class="ani_chart ani_chart6-2" data-name="con6_" data-step="1">
+                    </div>
+                </div>
+                <div class="section4__inner section4__inner6">
+                    <div class="section4__inner6__top">
+                        <div class="chirtGroup">
+                            <img src="./assets/images/welfare_chart/con6/con6-chirt_bg.png" alt="" class="mj_bg" data-aos="fade-in">
+                            <img src="./assets/images/welfare_chart/con6/con6-chirt_line1.png" alt="" class="sub_bg" data-aos="fade-up" data-aos-delay="250">
+                            <img src="./assets/images/welfare_chart/con6/con6-chirt_line2.png" alt="" class="sub_bg" data-aos="fade-up" data-aos-delay="500">
+                            <img src="./assets/images/welfare_chart/con6/con6-chirt_dot.png" alt="66億" class="mj_dot" data-aos="fade-up" data-aos-delay="1000">
+                        </div>
+                        <div class="chirt2_item">
+                            <div class="numGroup">
+                                <span id="chart16" class="num">0</span>
+                                <span class="numUnit">億</span>
                             </div>
-                            <div class="chart__inner--right">
-                                <div class="pic_right">
-                                    <img src="./assets/images/chart/chart2-family_1.png" alt=""
-                                        class="ani_chart ani_chart4" data-name="chart2-family_" data-step='3'>
-                                </div>
+                            <div class="txt">
+                                <img src="./assets/images/welfare_chart/con6/con6_txt1.png" alt="老人福利預算">
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="section4__inner section4__inner3">
-                <h3>教育文化與<br class="mb_only">社會公益關注</h3>
-                <p>自1988年起，基金會捐贈各項教育文化與社會資源</p>
-                <div class="section4__inner--chart section4__inner--chart3">
-                    <div class="chart__con">
-                        <div class="chart__inner chart__inner1">
-                            <div class="chart__inner--left">
-                                <div class="pic_left">
-                                    <img src="./assets/images/chart/chart3-bus_1.png" alt=""
-                                        class="ani_chart ani_chart5" data-name="chart3-bus_" data-step='3'>
-                                </div>
+                    <div class="section4__inner6__bottom">
+                        <div class="chirt2_item">
+                            <div class="numGroup">
+                                <span id="chart17" class="num small">0</span>
+                                <span class="numUnit">個</span>
                             </div>
-                            <div class="chart__inner--right">
-                                <p><span id="chart7" class="chartNum_2">0</span>台救護車／復康巴士 ，關注社會公益，扶助弱勢需求。<span
-                                        class="chart_years">(1988-2017年)</span></p>
+                            <div class="txt">
+                                <img src="./assets/images/welfare_chart/con6/con6_txt2.png" alt="共餐據點">
                             </div>
                         </div>
-                        <div class="chart__inner">
-                            <div class="chart__inner--left">
-                                <div>
-                                    <p><span id="chart9" class="chartNum_2">0</span>套<storng>功文式教育乘法歌CD、乘法卡</storng>
-                                        ，強化孩子用唱誦方式認識數學學習。<span class="chart_years">(2003年迄今)</span></p>
-                                    <p><span id="chart8" class="chartNum_2">0</span>本<storng>小小新鮮人手冊</storng>
-                                        ，讓幼兒家長幫助孩子輕鬆面對小一生活。<span class="chart_years">(2006年迄今)</span></p>
-                                    <p><span id="chart10" class="chartNum_2">0</span>套<storng>幸福孕袋</storng>
-                                        ，鼓勵懷孕父母重視胎教與學前教育議題<span class="chart_years">(2010年迄今)</span></p>
-
-                                    <p>2010年迄今，贊助<storng>功文增能實驗課程</storng>，總輔導人次<span id="chart11"
-                                            class="chartNum_2">0</span>人，總金額達<span id="chart12"
-                                            class="chartNum_2">0</span>元。</p>
-                                    <p>2011-2020年，捐贈教育文化與社會公益現金金額達<span id="chart13" class="chartNum_2">0</span>元。</p>
-                                </div>
+                        <div class="chirt2_item">
+                            <div class="numGroup">
+                                <span id="chart18" class="num small">0</span>
+                                <span class="numUnit">個</span>
                             </div>
-                            <div class="chart__inner--right">
-                                <div class="pic_right">
-                                    <img src="./assets/images/chart/chart3-family_1.png" alt=""
-                                        class="ani_chart ani_chart6" data-name="chart3-family_" data-step='5'>
-                                </div>
+                            <div class="txt">
+                                <img src="./assets/images/welfare_chart/con6/con6_txt3.png" alt="社區照顧關懷點">
+                            </div>
+                        </div>
+                        <div class="chirt2_item">
+                            <div class="numGroup">
+                                <span id="chart19" class="num">0</span>
+                                <span class="numUnit">處</span>
+                            </div>
+                            <div class="txt">
+                                <img src="./assets/images/welfare_chart/con6/con6_txt4.png" alt="日照中心">
+                            </div>
+                        </div>
+                        <div class="chirt2_item">
+                            <div class="numGroup">
+                                <span id="chart20" class="num">0</span>
+                                <span class="numUnit">家</span>
+                            </div>
+                            <div class="txt">
+                                <img src="./assets/images/welfare_chart/con6/con6_txt5.png" alt="老人福利佈點">
                             </div>
                         </div>
                     </div>
+                    
+                    <img src="./assets/images/welfare_chart/con6/con6_info.png" alt="(以上統計至2022年)" class="bottom_info">
                 </div>
-            </div>
+            </article>
         </div>
     </section>
-
+    
     <section class="goTop">
         <img src="./assets/images/gotop@2x.png" alt="">
     </section>
@@ -412,10 +779,19 @@
             Copyright © 2021 天下整合傳播部企劃製作.All rights reserved.版權所有，禁止擅自轉貼節錄</p>
     </footer>
 </body>
+
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script>
     AOS.init();
 </script>
+
+<script src="./assets/js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
 <script src="assets/js/timeline.js"></script>
+
+
 </html>
