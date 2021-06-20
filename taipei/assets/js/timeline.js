@@ -20,7 +20,7 @@ let data = [
             {
                 id: '3',
                 src: './assets/images/timeline/2015_3.jpg',
-                word: '下一個25年的起點，以北門為中心的「西區門戶計畫」，將臺北西區與桃園中正國際機場串連，成為嶄新的國際城市',
+                word: '下個25年的起點，「西區門戶計畫」帶領臺北市串聯國際',
 
             }
         ]
@@ -71,7 +71,7 @@ let data = [
             {
                 id: '3',
                 src: './assets/images/timeline/2017_3.jpg',
-                word: '社區整合照顧服務（石頭湯計畫），客製且即時服務每位長者的需求 ，由北市府搭起平臺，讓更多資源投入',
+                word: '北市府搭建社區整合照顧服務（石頭湯）平台，照顧每一位長者需求',
 
             }
         ]
@@ -97,7 +97,7 @@ let data = [
             {
                 id: '3',
                 src: './assets/images/timeline/2018_3.jpg',
-                word: '全臺灣第一例成功的公辦都更，延宕20多年的斯文里整宅都更計畫，在2018年重新開工，是公辦都更制度化的開始',
+                word: '公辦都更制度化的開始，經歷20年的停滯的斯文里整宅都更計畫，終於在2018年開工',
 
             }
         ]
@@ -193,7 +193,7 @@ let data = [
             {
                 id: '3',
                 src: './assets/images/timeline/2022_3.jpg',
-                word: '北市透過大眾運輸導向型發展（Transit-oriented development，TOD），建構完善捷運路網，帶動地區經濟發展',
+                word: '配合大眾運輸導向型發展(TOD)，建構完善捷運路網，帶動各區經濟發展',
             }
         ]
     },
@@ -419,9 +419,10 @@ $(window).on('scroll', function () {
     var chart1 = $('.section4__con--chart1').offset().top,
         chart2 = $('.section4__con--chart2').offset().top,
         chart3 = $('.section4__con--chart3').offset().top,
-        chart4 = $('.section4__con--chart4').offset().top,
+        chart4 = $('.section4__inner4').offset().top,
         chart5 = $('.section4__con--chart5').offset().top,
-        chart6 = $('.section4__con--chart6').offset().top;
+        chart6 = $('.section4__inner6__top').offset().top;
+        chart6b = $('.section4__inner6__bottom').offset().top;
 
     windowScroll = $(this).scrollTop();
     if (chart1 - document.body.clientHeight / 2 < windowScroll) {
@@ -481,11 +482,16 @@ $(window).on('scroll', function () {
     if (chart6 - document.body.clientHeight / 2 < windowScroll) {
         if (check6) {
             $("#chart16").animateNumbers(374, true, 2000);
+            chart6 = false;
+        }
+    }
+    if (chart6b - document.body.clientHeight / 2 < windowScroll) {
+        if (check6) {
             $("#chart17").animateNumbers(492, true, 2000);
             $("#chart18").animateNumbers(564, true, 2000);
             $("#chart19").animateNumbers(52, true, 2000);
             $("#chart20").animateNumbers(44, true, 2000);
-            chart6 = false;
+            chart6b = false;
         }
     }
 });

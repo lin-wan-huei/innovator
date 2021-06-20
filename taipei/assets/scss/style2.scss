@@ -51,13 +51,12 @@ sans-serif; //字體-一般中文
 .section4 {
     background: $color_bg1;
     line-height: 1.2;
-    overflow: auto;
+    overflow-x: hidden;
     font-family: $font_txt;
     background: url($url+"bg-chart.png");
     background-size: 100%;
     background-position: center top;
     background-repeat: no-repeat;
-
     @include media-md-max {
         background-image: url($url+"bg-chart_mb.png");
         background-size: cover;

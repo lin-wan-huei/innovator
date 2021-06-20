@@ -1033,10 +1033,14 @@ footer {
   text-align: center;
   background-color: #272727;
   color: #fff;
-  padding: 20px 0;
+  padding: 50px 0;
   font-size: 14px;
 }
-
+footer a{
+  display: inline;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
 @media all and (max-width: 769px) {
   footer {
     padding: 20px 10px;
