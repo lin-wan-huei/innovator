@@ -512,13 +512,13 @@ sans-serif; //字體-一般中文
         .dot {
             display: inline-block;
             vertical-align: middle;
-            width: 40px;
-            height: 40px;
-            line-height: 40px;
+            width: 28px;
+            height: 28px;
+            line-height: 26px;
             border-radius: 5rem;
             background: #b3dfff;
-            font-size: 22px;
-            font-weight: 700;
+            font-size: 18px;
+            font-weight: 400;
             text-align: center;
         }
 
@@ -844,8 +844,8 @@ sans-serif; //字體-一般中文
             width: 115px;
             height: 115px;
             border-radius: 100%;
-            color: #fff;
-            background: #3a3a3a;
+            color: #000;
+            background: #fed470;
             border-radius: 100%;
             @include mb-width_l(){
                 margin: auto;
@@ -866,7 +866,7 @@ sans-serif; //字體-一般中文
                 height: 42px;
                 border-radius: 100%;
                 font-size: 22px;
-                background: #3a3a3a;
+                background: #fed470;
                 text-align: center;
                 line-height: 40px;
             }
